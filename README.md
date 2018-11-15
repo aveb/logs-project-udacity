@@ -1,10 +1,16 @@
 # Reporter
 
-A tool that anaylzes the ```newsdata.sql``` database and returns:
+A tool that anaylzes the fictional ```newsdata.sql``` database.  This database includes three tables: 
 
-- Top three articles of all time by page views
-- List of Authors ranked by page views
-- Dates when more than 1% of HTTP requests returned errors
+1. ```articles```, which includes author, article title, slug, lead, body, time and an ID
+2. ```authors```, which includes name of author, author bio, and an ID
+3. ```log```, which includeds path, ip, method, status code, time, and ID.  This can be used to show how many times the articles have been _viewed_.
+
+The ```reporter.py``` program will return:
+
+1. Top 3 most popular articles by views
+2. Author's Popularity by views
+3. Dates where more than 1 percent of requests returned errors
 
 ## Prerequisites
 
