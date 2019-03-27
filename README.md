@@ -1,4 +1,4 @@
-# Reporter
+# Reporter Tool
 
 A tool that anaylzes the fictional ```newsdata.sql``` database.  This database includes three tables: 
 
